@@ -48,7 +48,7 @@ getDescriptionPrompt = "What is the meter reading and meter serial number on thi
 
 # used try to deal with potential errors in model running
 # Sends the base 64 image request to the AI API. 
-# Defines model as 3.2 11B Turbo
+# Defines model as 3.2-90B-Vision-Instruct-Turbo
 # messages part deals with what is being sent to the AI
 # First it specifies that the message is coming from the user ("role":"user")
 # Splits the message into two elements: 1) the text input 2) base64 image
